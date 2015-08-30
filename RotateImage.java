@@ -7,7 +7,7 @@ public class RotateImage {
 		int[][] result = rotate(grid,1);
 	}
 	public static int[][] rotate(int[][] grid, int n){
-		int[][] result = new int[grid.length][grid[0].length];
+		int[][] result = new int[grid[0].length][grid.length];
 		for(int i=0; i<grid[0].length; i++){
 			for(int j=0; j<grid.length; j++){
 				if(n==1)					// Rotate Right
